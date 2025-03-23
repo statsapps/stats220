@@ -63,7 +63,7 @@ The median number of characters used across the feedback comments is `r  median_
 
 ### What are the 10 top words used?
 
-<mark>Note the rest of this report goes beyond what you have learned in Modules 1 and 2 - spoiler alert for Modules 3 and 4.</mark>
+> Note the rest of this report goes beyond what you have learned in Modules 1 and 2 - spoiler alert for Modules 3 and 4.
 
 ```{r}
 feedback_words <- feedback_data %>%
