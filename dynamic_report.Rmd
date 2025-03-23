@@ -15,6 +15,7 @@ library(tidytext)
 body {
     font-size: 12pt;
     font-family: Courier;
+    padding: 20px 100px 20px 100px;
 }
 
 mark {
