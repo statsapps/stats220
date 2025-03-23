@@ -33,4 +33,21 @@ feedback_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS2BF
            feedback = 2,
            lab_task = 3)
 ```
+## What do students think about the STATS 220 labs?
+
+![](https://media.tenor.com/gQf-Nf3he8cAAAAM/cat-typing.gif)
+
+### How many comments per lab?
+
+```{r}
+feedback_data %>%
+    ggplot() +
+    geom_bar(aes(y = lab_task)) +
+    labs(title = "Number of feedback comments for each lab task",
+         subtitle = "STATS 220 Semester One 2025",
+         caption = "Source: Anna's Google form",
+         x = "Number of students",
+         y = "Lab task")
+```
+
 
